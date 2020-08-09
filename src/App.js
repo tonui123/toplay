@@ -1,12 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import ABOUT from './components/ABOUT'
+import CONTACT from './components/CONTACT'
+import HOME from './components/HOME'
 function App() {
   return (
     <div className="App">
-      <h1> ยินดีต้อนรับ </h1>
-      <p>สิทธิกร เพชรฤทธิ์</p>
+      <HOME />
+      <ABOUT />
+      <CONTACT />
+    
     </div>
   );
 }
